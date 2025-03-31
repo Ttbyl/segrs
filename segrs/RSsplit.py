@@ -31,7 +31,7 @@ def crop_tif(input_path, output_dir="output", tile_size=512, overlap=0, keep_siz
         print(f"tile size: {tile_size}, overlap: {overlap_pixels}, keep_size: {keep_size}")
         
         col_index = 0
-        for col in tqdm(range(0, width, tile_size - overlap_pixels),des=f"Crop tif file {input_path}"):
+        for col in tqdm(range(0, width, tile_size - overlap_pixels),desc=f"Crop tif file {input_path}"):
             row_index = 0
             for row in range(0, height, tile_size - overlap_pixels):
                 # 确保窗口不超出影像边界

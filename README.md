@@ -8,7 +8,7 @@ pip install segrs
 
 ## 更新情况：
 
-* `0.1.2`fix bug 
+* `0.1.3`fix bug 
 * `0.1.0` 初始化
 
 ## 核心功能
