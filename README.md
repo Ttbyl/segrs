@@ -1,5 +1,3 @@
-
-
 # segrs
 
 遥感（RS）图像分割与合并工具，支持大图像的切片和切片的合并操作。
@@ -10,6 +8,7 @@ pip install segrs
 
 ## 更新情况：
 
+* `0.1.2`fix bug 
 * `0.1.0` 初始化
 
 ## 核心功能
@@ -83,4 +82,3 @@ pip install segrs
 1. 输入图像需为 `.tif` 格式（通过 `rasterio` 库支持）
 2. 切片文件名需严格遵循 `name_{col}_{row}.tif` 格式（如 `tile_3_5.tif`）
 3. 合并时需保证 `tile_size` 和 `overlap` 参数与切割时一致
-

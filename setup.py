@@ -9,9 +9,9 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 # you need to change all these
-VERSION = '0.1.0'
+VERSION = "0.1.2"
 DESCRIPTION = "Remote Sensing Image Segmentation Tools"
-LONG_DESCRIPTION = ''
+LONG_DESCRIPTION = ""
 
 setup(
     name="segrs",
@@ -23,7 +23,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[],
-    keywords=['python', 'segrs','Remote Sensing',"Segmentation"],
+    keywords=["python", "segrs", "Remote Sensing", "Segmentation"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
@@ -31,5 +31,5 @@ setup(
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
-    ]
+    ],
 )
